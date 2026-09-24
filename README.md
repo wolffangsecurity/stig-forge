@@ -189,6 +189,5 @@ The application incorporates a defense-in-depth architecture:
 
 
 
-These controls represent the author's personal architectural design decisions. For full architectural details, consult docs/ARCHITECTURE.md. For complete threat modeling and mitigation coverage, consult docs/SECURITY.md.
 
 
