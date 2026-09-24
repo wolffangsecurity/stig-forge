@@ -4,7 +4,7 @@
 
 STIG Forge is an security compliance tool that ingests DISA STIG requirements and autonomously orchestrates the generation, validation, and remote deployment of remediation scripts along with matching documentation across both Linux and Windows operating systems. The system operates on a bounded, goal-directed agent loop governed by zero-trust security controls, including an agent policy engine, prompt firewall, tool guard, and code execution sandbox.
 
-For standard Windows registry settings, the system uses deterministic Jinja2 templates. For all other requirements—including complex Windows rules (User Rights Assignment, Audit Policy, and permissions) and all Linux subsystems (SSHD, PAM, Sysctl, Auditd, Systemd, File Permissions)—the Agentic AI  generates  PowerShell or Bash remediation scripts. 
+For standard Windows registry settings, the system uses deterministic Jinja2 templates. For all other requirements including complex Windows rules (User Rights Assignment, Audit Policy, and permissions) and all Linux subsystems (SSHD, PAM, Sysctl, Auditd, Systemd, File Permissions)—the Agentic AI  generates  PowerShell or Bash remediation scripts. 
 
 <img width="1459" height="761" alt="Pasted image 20260923185953" src="https://github.com/user-attachments/assets/bc2f538c-26fe-4b3d-a620-770288da8291" />
 
